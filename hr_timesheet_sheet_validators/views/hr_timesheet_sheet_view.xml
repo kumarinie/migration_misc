@@ -45,7 +45,7 @@
             <xpath expr='//field[@name="employee_id"]' position="after">
                 <field name="validator_user_ids"/>
             </xpath>
-            <xpath expr='//filter[@name="to_approve"]' position="after">
+            <xpath expr='//filter[@name="confirm"]' position="after">
                 <filter name="my_timesheets"
                         string="My timesheets to validate"
                         domain="[('validator_user_ids','in',[uid])]"
